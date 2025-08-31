@@ -1,5 +1,7 @@
+
 import React from 'react';
-import { Link } from "react-router-dom";
+// Fix: Updated react-router-dom import to be compatible with v5.
+import { Link } from 'react-router-dom';
 import { Wand2, Github, Twitter, Linkedin } from 'lucide-react';
 
 const Footer: React.FC = () => {

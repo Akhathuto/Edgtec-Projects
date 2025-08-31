@@ -24,7 +24,7 @@ const HealthCheckPage: React.FC = () => {
     { name: "Web Application", status: "healthy", responseTime: "45ms", icon: Globe, health: 98 },
     { name: "API Services", status: "healthy", responseTime: "32ms", icon: Server, health: 99 },
     { name: "Database", status: "healthy", responseTime: "12ms", icon: Database, health: 96 },
-    { name: "AI Model Services", status: "degraded", responseTime: "120ms", icon: Sparkles, health: 78 },
+    { name: "AI Model Services", status: "healthy", responseTime: "120ms", icon: Sparkles, health: 95 },
     { name: "File Storage", status: "healthy", responseTime: "28ms", icon: HardDrive, health: 97 },
     { name: "CDN Network", status: "healthy", responseTime: "15ms", icon: Network, health: 99 }
   ]);

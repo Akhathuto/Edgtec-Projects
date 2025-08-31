@@ -1,6 +1,7 @@
 
 import React from 'react';
-import { HashRouter, Routes, Route } from "react-router-dom";
+// Fix: Updated react-router-dom imports for v6 compatibility.
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import DashboardPage from './pages/DashboardPage';
 import AboutPage from './pages/AboutPage';
@@ -20,7 +21,8 @@ import PageLayout from './components/PageLayout';
 
 const App: React.FC = () => {
   return (
-    <HashRouter>
+    // Fix: Using BrowserRouter and react-router-dom v6 syntax (Routes, Route with element prop).
+    <BrowserRouter>
       <PageLayout>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -40,7 +42,7 @@ const App: React.FC = () => {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </PageLayout>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 

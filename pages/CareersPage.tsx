@@ -4,7 +4,8 @@ import { Button } from '../components/ui/button';
 import { Badge } from '../components/ui/badge';
 import { Input } from '../components/ui/input';
 import { Briefcase, MapPin, Clock, DollarSign, Users, Heart, GraduationCap, Lightbulb, Filter, Search, ArrowRight, CheckCircle, Star, Target, TrendingUp, Shield } from 'lucide-react';
-import { Link } from "react-router-dom";
+// Fix: Updated react-router-dom import to be compatible with v5.
+import { Link } from 'react-router-dom';
 
 const CareersPage: React.FC = () => {
     const [searchTerm, setSearchTerm] = useState("");

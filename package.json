@@ -12,6 +12,7 @@
     "react": "^19.1.1",
     "react-router-dom": "6.25.1",
     "lucide-react": "0.372.0",
+    "@google/genai": "latest",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {

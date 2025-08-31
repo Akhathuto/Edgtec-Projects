@@ -1,7 +1,7 @@
-
 import React, { useState } from 'react';
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '../ui/card';
 import { Button } from '../ui/button';
+import { Textarea } from '../ui/textarea';
 import { Video, Sparkles, Loader2 } from 'lucide-react';
 import { GeneratedVideo } from '../../types';
 
@@ -41,11 +41,11 @@ const VideoGenerator: React.FC<Props> = ({ onVideoGenerated }) => {
         <CardDescription>Describe a scene, and let AI create a video for you.</CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
-        <textarea
+        <Textarea
             placeholder="e.g., A cinematic shot of a car driving on a mountain road at sunset"
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
-            className="w-full min-h-[100px] p-2 border border-slate-300 dark:border-slate-700 rounded-md bg-white dark:bg-slate-800"
+            className="min-h-[100px]"
             disabled={isGenerating}
         />
         <Button onClick={handleGenerate} disabled={isGenerating || !prompt.trim()} className="bg-indigo-600 text-white hover:bg-indigo-700">

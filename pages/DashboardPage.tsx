@@ -9,7 +9,6 @@ import Collaboration from '../components/ai-tools/Collaboration';
 import CreativeGallery from '../components/ai-tools/CreativeGallery';
 import { GeneratedImage, GeneratedContent, GeneratedMusic, GeneratedVideo, GeneratedModel } from '../types';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
-import { Button } from '../components/ui/button';
 
 const DashboardPage: React.FC = () => {
     const [activeTab, setActiveTab] = useState('image');

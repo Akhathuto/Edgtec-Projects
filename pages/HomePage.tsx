@@ -1,10 +1,13 @@
+
 import React from 'react';
-import { Link, useNavigate } from "react-router-dom";
+// Fix: Updated react-router-dom imports for v6 compatibility, replacing useHistory with useNavigate.
+import { Link, useNavigate } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../components/ui/card';
 import { Wand2, Sparkles, Star, Users, Palette, PenTool, ImageIcon, FileText, Music, Video, Box as Cube, Zap, ArrowRight, CheckCircle, TrendingUp, Award, Globe, Shield, Heart, Target } from 'lucide-react';
 
 const HomePage: React.FC = () => {
+    // Fix: Replaced useHistory with useNavigate for react-router-dom v6 compatibility.
     const navigate = useNavigate();
 
     const features = [

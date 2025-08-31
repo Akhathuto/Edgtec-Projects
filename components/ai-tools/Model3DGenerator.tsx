@@ -1,7 +1,7 @@
-
 import React, { useState } from 'react';
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '../ui/card';
 import { Button } from '../ui/button';
+import { Textarea } from '../ui/textarea';
 import { Box as Cube, Sparkles, Loader2 } from 'lucide-react';
 import { GeneratedModel } from '../../types';
 
@@ -40,11 +40,11 @@ const Model3DGenerator: React.FC<Props> = ({ onModelGenerated }) => {
         <CardDescription>Describe an object, and let AI build a 3D model.</CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
-        <textarea
+        <Textarea
             placeholder="e.g., A low-poly model of a treasure chest"
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
-            className="w-full min-h-[100px] p-2 border border-slate-300 dark:border-slate-700 rounded-md bg-white dark:bg-slate-800"
+            className="min-h-[100px]"
             disabled={isGenerating}
         />
         <Button onClick={handleGenerate} disabled={isGenerating || !prompt.trim()} className="bg-indigo-600 text-white hover:bg-indigo-700">

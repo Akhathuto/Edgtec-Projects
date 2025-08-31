@@ -19,7 +19,12 @@ Our core creative tools are now fully functional, moving from mock data to power
 
 ## About EDGTEC
 
-At **EDGTEC**, we are a passionate team of developers, designers, and AI researchers on a mission to democratize creativity. We believe that technology should be a partner in the creative process, amplifying human imagination, not replacing it. Our goal is to build a future where anyone, regardless of their technical expertise, can transform their ideas into professional-quality creations.
+At **EDGTEC**, we are a passionate team of developers, designers, and AI researchers on a mission to democratize creativity. Based in South Africa, EDGTEC is a proud **100% black youth-owned enterprise** committed to innovation and empowerment. We believe that technology should be a partner in the creative process, amplifying human imagination, not replacing it. Our goal is to build a future where anyone, regardless of their technical expertise, can transform their ideas into professional-quality creations.
+
+### Company Details
+- **Legal Name:** EDGTEC
+- **Company Registration Number:** 2025/534716/07
+- **CSD Supplier Number:** MAAA1626554
 
 ---
 
@@ -139,5 +144,10 @@ If you have a suggestion that would make this better, please fork the repo and c
 Distributed under the MIT License.
 
 ---
+
+## 📫 Contact
+
+- **Email:** [r.lepheane@outlook.com](mailto:r.lepheane@outlook.com)
+- **Address:** Springs, Gauteng, South Africa
 
 &copy; 2024 EDGTEC. All Rights Reserved.

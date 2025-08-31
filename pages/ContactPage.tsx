@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
@@ -45,7 +44,7 @@ const ContactPage: React.FC = () => {
                             <div>
                                 <h3 className="text-lg font-semibold text-slate-800 dark:text-white">Email Us</h3>
                                 <p className="text-slate-600 dark:text-slate-400">Our team will get back to you within 24 hours.</p>
-                                <a href="mailto:contact@edgtec.com" className="text-indigo-600 dark:text-indigo-400 font-medium">contact@edgtec.com</a>
+                                <a href="mailto:r.lepheane@outlook.com" className="text-indigo-600 dark:text-indigo-400 font-medium">r.lepheane@outlook.com</a>
                             </div>
                         </div>
                          <div className="flex items-start space-x-4">
@@ -55,7 +54,7 @@ const ContactPage: React.FC = () => {
                             <div>
                                 <h3 className="text-lg font-semibold text-slate-800 dark:text-white">Call Us</h3>
                                 <p className="text-slate-600 dark:text-slate-400">Mon-Fri from 9am to 5pm.</p>
-                                <a href="tel:+1234567890" className="text-indigo-600 dark:text-indigo-400 font-medium">+1 (234) 567-890</a>
+                                <a href="tel:+27711846709" className="text-indigo-600 dark:text-indigo-400 font-medium">+27 71 184 6709</a>
                             </div>
                         </div>
                          <div className="flex items-start space-x-4">
@@ -64,7 +63,7 @@ const ContactPage: React.FC = () => {
                             </div>
                             <div>
                                 <h3 className="text-lg font-semibold text-slate-800 dark:text-white">Visit Us</h3>
-                                <p className="text-slate-600 dark:text-slate-400">123 Innovation Drive, Tech City, 12345</p>
+                                <p className="text-slate-600 dark:text-slate-400">106312 Ngwabe Street, Kwa-Thema, Springs, 1575, South Africa</p>
                             </div>
                         </div>
                     </div>

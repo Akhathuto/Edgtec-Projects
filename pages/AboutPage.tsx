@@ -29,6 +29,18 @@ const AboutPage: React.FC = () => {
                     </div>
                 </div>
 
+                <div className="bg-slate-50 dark:bg-slate-800/50 rounded-lg py-16 mb-20">
+                    <div className="max-w-4xl mx-auto text-center">
+                         <h2 className="text-3xl font-bold mb-4 text-slate-800 dark:text-white">Our Story & Commitment</h2>
+                        <p className="text-slate-600 dark:text-slate-400 text-lg mb-4">
+                           Founded in South Africa, EDGTEC is a proud 100% black youth-owned enterprise. We are driven by a passion for innovation and a commitment to creating opportunities within our community.
+                        </p>
+                        <p className="text-slate-600 dark:text-slate-400 text-lg">
+                           Our goal is not only to build cutting-edge technology but also to foster empowerment, proving that great ideas can come from anywhere and anyone.
+                        </p>
+                    </div>
+                </div>
+
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">Our Values</h2>
                 </div>
